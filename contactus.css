@@ -1,0 +1,61 @@
+#mainimg{
+    width: 95%;
+    padding: 2%;
+}
+.main{
+    position: relative;
+}
+.main .container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.main .container .col1{
+    padding-left: 5%;
+    width: 30%;
+    float: left;
+}
+.main .container .col2{
+    width: 50%;
+    float: right;
+    padding-right: 5%;
+}
+address{
+    font-size: x-large;
+}
+#mapbtn{
+    padding: 2%;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    background-color: crimson;
+    cursor: pointer;
+}
+form input,select,textarea,option{
+    font-size: 120%;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 3px;
+}
+form label{
+    font-size: 120%;
+}
+input:hover{
+    mso-border-shadow: 1px 1px 1px 1px blue;
+}
+.row11,.row12,.row21,.row22{
+    width: 45%;
+    float: left;
+}
+.row11,.row12,.row21,.row22,.row3,.row4{
+    padding: 2%;
+}
+#submitid{
+    padding: 2%;
+    background-color: #20251f;
+    color: #ffffff;
+    border: double;
+}
+.footer{
+    position:relative;
+}

@@ -1,0 +1,41 @@
+.main{
+    height: 1400px;
+}
+.img1 .container{
+    position: static;
+}
+#aboutusmainimg{
+    width: 95%;
+    padding: 2%;
+}
+.images{
+    float: left;
+    width: 45%;
+    padding: 2%;
+}
+.data{
+    float: right;
+    width: 45%;
+    padding: 2%;
+}
+.aboutusimg{
+    height: inherit;
+    width: 100%;
+    padding:2% ;
+}
+.first-para{
+    font-size: x-large;
+    text-align: justify;
+}
+.second-para{
+    padding-left: 2%;
+    text-align: justify;
+    font-size: x-large;
+    border-left: 4px solid gray ;
+}
+.third-para{
+    padding-left: 2%;
+    text-align: justify;
+    font-size: x-large;
+    border-left: 4px solid gray ;
+}

@@ -1,0 +1,29 @@
+#mainimg{
+    width: 95%;
+    padding: 2%;
+}
+
+.main .container{
+    position: relative;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+.heading{
+    font-size: 150%;
+}
+.infrimgclass{
+    width: 100%;
+    align-items: center;
+}
+.infraimg{
+    padding: 2%;
+    width: 25%;
+    height: 25%;
+}
+.supporting .container{
+    background-image: url("../images/aboutus/2.JPG");
+    position: relative;
+    padding: 5%;
+    text-align: center;
+}

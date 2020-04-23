@@ -1,0 +1,24 @@
+#mainimg{
+    width: 95%;
+    padding: 2%;
+}
+.container{
+    position: relative;
+}
+.vision .container{
+    padding: 5%;
+    align-self: center;
+    background-color: #adb1b2;
+    font-size: x-large;
+}
+.vfirst-para{
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+.mission .container{
+    padding: 5%;
+    background-color: #74302e;
+    font-size: x-large;
+    font-weight: 100;
+}

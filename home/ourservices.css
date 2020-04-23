@@ -1,0 +1,17 @@
+#mainimg{
+    width: 95%;
+    padding: 2%;
+}
+.tit{
+    font-size: xx-large;
+}
+.hr{
+    width: 100%;
+    padding-right: 20%;
+}
+.main .container{
+    position: relative;
+    padding-left: 5%;
+    width: 70%;
+    font-size: large;
+}

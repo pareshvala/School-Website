@@ -1,0 +1,64 @@
+html,body{
+	margin: 0;
+}
+body{
+	background-color: darkorange;
+}
+header h1{
+	font-family: arial;
+	font-style: italic;
+	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#logo{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.supporting{
+	position: static;
+}
+.container{
+	margin: 0 auto;
+	position: relative;
+	max-width: 90%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: rgb(8,161,217);
+}
+.container .col1{
+	width: 50%;
+	float:left;
+	padding-left: 4%;
+}
+.container .col2{
+	padding-left: 4%;
+	width: 40%;
+	border-left: 1px solid black;
+	float: right;
+}
+#username, #password{
+	border: 1px solid black;
+}
+.container a{
+	text-decoration: none;
+}
+.container a:hover{
+	text-decoration: underline;
+}
+#reset{
+	margin-left: 10%;
+}
+.clearfix {
+	clear: both;
+}
+#forgotpwd{
+	padding-left: 20%;
+}
+#submit:hover , #reset:hover{
+	background-color: lightgray;
+}

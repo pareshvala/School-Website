@@ -1,0 +1,37 @@
+#mainimg{
+    width: 95%;
+    padding: 2%;
+}
+.main{
+    position: relative;
+}
+.main .container{
+    position: relative;
+    width: 100%;
+}
+.main .container .col1{
+    width: 20%;
+    float: left;
+    padding-left: 2%;
+}
+.main .container .col2{
+    padding: 2%;
+    width: 70%;
+    float: left;
+}
+.contantimg{
+    box-shadow: 5px 5px #20251f;
+    border-radius: 6%;
+    margin: 1%;
+    width: 30%;
+    height: 30%;
+}
+.contantimg:hover{
+	animation-name:photo;
+	animation-duration:1s;	
+}
+
+@keyframes photo{
+	from{transform:rotate3D(0,1,0,0deg);}
+	to{transform:rotate3D(0,1,0,360deg);}
+}

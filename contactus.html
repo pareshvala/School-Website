@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="masterpage.css">
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+</head>
+<body>
+<header>
+    <a href="home.html"><img src="images/logo.jpg" id="logoid"></a>
+    <h1>NACHIKETA VIDHYA SANKUL</h1>
+</header>
+<div class="navigation">
+    <div class="container">
+        <ul class="nav">
+            <li class="dropdown">
+                <a href="home.html" class="dropbtn">HOME</a>
+                <div class="dropdown-content">
+                    <a href="home/visionmission.html">Vision & Mission</a>
+                    <a href="home/ourservices.html">Our Services</a>
+                    <a href="home/aboutschool.html">About School</a>
+                </div>
+            </li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="">EVENTS</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">GALLERY</a>
+                <div class="dropdown-content">
+                    <a href="gallery/sports.html">Sports</a>
+                    <a href="gallery/picnic.html">picnics & tours</a>
+                    <a href="gallery/compitition.html">Competition</a>
+                    <a href="gallery/annualfunction.html">Annual Function</a>
+                </div>
+            </li>
+            <li><a href="">CONTACT US</a></li>
+            <li style="float:right"><a class="active" href="LoginPage.html" target="_blank">LOGIN</a></li>
+        </ul>
+    </div>
+</div>
+<div class="img1">
+    <div class="container">
+        <img id="mainimg" src="images/contactus.png">
+    </div>
+</div>
+<hr>
+<div class="main">
+    <div class="container">
+        <div class="col1">
+            <h1>Our Address</h1>
+            <hr>
+            <br><br>
+            <address>
+                Shree Nachiketa Vidhya Sankul,<br>
+                Rajula-Sawarkundala Road,<br>
+                Rajula,Amreli.<br>
+                Gujarat.<br>
+                Contact No. +918264914249<br>
+                Email Id : nachiketschool@gmail.com<br>
+            </address>
+            <br>
+            <a href="https://www.google.co.in/maps/place/Shree+Nachiketa+Vidhya+Sankul/@21.0578669,71.4272623,17z/data=!3m1!4b1!4m5!3m4!1s0x3be244f8730bf8c5:0xf93acc23740b7399!8m2!3d21.0578669!4d71.429451?hl=en"
+			target="_blank"><button id="mapbtn">Get Direction</button></a>
+        </div>
+        <div class="col2">
+            <h1>Inquiry Form</h1>
+            <hr>
+            <form action="http://localhost/inquery.php" method="POST">
+                <div class="row1">
+                    <div class="row11">
+                        <label>Name :</label><br>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="row12">
+                        <label>Email :</label><br>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="row21">
+                        <label>Phone :</label><br>
+                        <input type="number" name="phoneno" id="phoneno" required>
+                    </div>
+                    <div class="row22">
+                        <label>Select Department :</label><br>
+                        <select id="department" name="department" class="form-control">
+                            <option value="Administration" name="administration">Administration</option>
+                            <option value="Admissions" name="admissions">Admissions</option>
+                            <option value="Courses" name="cources">Courses</option>
+                            <option value="Apply" name="apply">Apply</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row3">
+					<br><br><br><br><br><br><br><br>
+                    <label>Message :</label><br>
+                    <textarea type="text" rows="4" id="message" name="message" placeholder="type here..." required></textarea>
+                </div>
+                <div class="row4">
+                    <input  type="submit" id="submitid" name="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer" style="margin-top: 33%">
+    <div class="container">
+        <div class="upper-footer">
+            <div class="footer-div">
+                <h2>Quick Links</h2>
+                <p><a href="home.html">home</a></p><br>
+                <p><a href="contactus.html">Admission</a></p><br>
+                <p><a href="home/aboutschool.html">About School</a></p><br>
+                <p><a href="home/ourservices.html">Our Services</a></p><br>
+                <p><a href="LoginPage.html">Login</a></p>
+            </div>
+            <div class="footer-div">
+                <h2>We Have</h2>
+                <p>highly Qualified Teaching Staff</p><br>
+                <p>CCTV Assistence</p><br>
+                <p>Over 70 Computers in Lab</p><br>
+                <p>Yoga & Arobics</p><br>
+                <p>Sports Compititions</p><br>
+            </div>
+            <div class="footer-div">
+                <h2>Contact Us</h2><br>
+                <address>
+                    Nachiketa Vidhya Sankul,<br>
+                    Beside Vishwas Petrol Pump,<br>
+                    Rajula-Sawarkundala Road,<br>
+                    Rajula, Amreli.
+                </address>
+            </div>
+        </div>
+        <div class="lower-footer">
+            <center><p>Copyright 2017 by : Nachiketa Vidhya Sankul.. All rights reserved. | Powered by : Paresh Vala</p></center>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
